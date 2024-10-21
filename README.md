@@ -1,3 +1,4 @@
+![APP](src/assets/viya-logo.png)
 # Shipit Smarter project 
 
 ![APP](src/assets/app-screenshot.png)
