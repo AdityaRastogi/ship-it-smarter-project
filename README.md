@@ -1,5 +1,7 @@
 # Shipit Smarter project 
 
+![APP](src/assets/app-screenshot.png)
+
 ## Using Vue 3 + TypeScript + Vite
 
 ## Project Structure
