@@ -179,11 +179,10 @@
 </template>
 
 <script setup lang="ts">
-import { mockData } from "../data/mockCarrierProfileData.js";
+import { mockData } from "../data/mockCarrierProfileData.ts";
 import { ref, onMounted, computed } from "vue";
 import {
-  useCarrierProfileStore,
-  CarrierProfileData,
+  useCarrierProfileStore
 } from "../stores/CarrierProfileStore";
 import { VForm } from "vuetify/components";
 
@@ -242,7 +241,7 @@ const initializeFormValues = () => {
 
 onMounted(() => {
   carrierProfileStore.initializeCarrierProfileData(
-    mockData<CarrierProfileData>
+    mockData
   );
   initializeFormValues();
 });
